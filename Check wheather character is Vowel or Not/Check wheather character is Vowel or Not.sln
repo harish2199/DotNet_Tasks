@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Check wheather character is Vowel or Not", "Check wheather character is Vowel or Not\Check wheather character is Vowel or Not.csproj", "{0EF067BF-0913-4B5F-97D5-04CED9F8D7D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0EF067BF-0913-4B5F-97D5-04CED9F8D7D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EF067BF-0913-4B5F-97D5-04CED9F8D7D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EF067BF-0913-4B5F-97D5-04CED9F8D7D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EF067BF-0913-4B5F-97D5-04CED9F8D7D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {89101FF3-0A2B-4087-8FDD-F7C4C3A6D9DF}
+	EndGlobalSection
+EndGlobal
