@@ -38,7 +38,8 @@
 
             foreach (int i in myStack.array)
             {
-                Console.WriteLine(i);
+                int p = 0;
+                Console.WriteLine($"Pushed element{++p} : {i}");
             }
             Console.WriteLine($"Number of objects in the stack = { myStack.count}");
 
@@ -55,7 +56,8 @@
 
             foreach (string i in myStack1.array)
             {
-                Console.WriteLine(i);
+                int p = 0;
+                Console.WriteLine($"Pushed element{++p} : {i}");
             }
             Console.WriteLine($"Number of objects in the stack = {myStack1.count}");
             Console.WriteLine($"Poped item-{++z} is: {myStack1.pop()}");
