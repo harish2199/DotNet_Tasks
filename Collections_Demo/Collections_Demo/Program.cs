@@ -14,7 +14,7 @@ namespace Collections_Demo
             list.Add("Hello");
             list.Add(true);
             list.Insert(2, 2);
-            list.Remove(1); // removing elemnet at index 2
+            list.Remove(2.4f); // removing particular elemnet 
             Console.WriteLine("Total elements in the list = " + list.Count);
 
             Console.WriteLine("Before clearing");
@@ -22,8 +22,8 @@ namespace Collections_Demo
             {
                 Console.WriteLine(i);
             }
-
-            list.Clear();
+            
+            //list.Clear();
             Console.WriteLine("After clearing");
             foreach (var i in list) // we can use var or object
             {
@@ -34,7 +34,7 @@ namespace Collections_Demo
             Console.WriteLine("------------------------------------------------------------------------");
             Stack s = new Stack();
             s.Push(10);
-            s.Push(20);
+            s.Push("Hello");
             s.Push(30);
             s.Push(40);
 
@@ -67,21 +67,21 @@ namespace Collections_Demo
                 Console.WriteLine(i);
             }
 
-            Console.WriteLine($"{queue.Contains(6)}");
+            Console.WriteLine($"{queue.Contains(4)}");
 
             //Sorted List
 
             Console.WriteLine("-------------------------------------------------------------------");
 
             SortedList sortedlist = new SortedList();
-            sortedlist.Add(1, 2);
+            sortedlist.Add(1, 2);  //.add(key , value) .add(1,"hello")  .add("hello",1) 
             sortedlist.Add(3, 4);
             sortedlist.Add(4, 5);
             sortedlist.Add(2, 8);
             Console.WriteLine(sortedlist.GetByIndex(0));
             Console.WriteLine(sortedlist.GetKey(2));// it gives the key at index 2
 
-
+            Console.WriteLine(sortedlist[4]);
 
             foreach (var item in sortedlist.Keys)
             {
