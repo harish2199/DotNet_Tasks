@@ -8,6 +8,6 @@ namespace Day9_ExceptionHandling_Demo
 {
     internal class InvalidValueException : Exception
     {
-        public InvalidValueException(String message) : base(message) { }
+        //public InvalidValueException(String message) : base(message) { }
     }
 }
