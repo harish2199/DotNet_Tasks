@@ -39,7 +39,7 @@
             
             //By using where and we want only one value or first value then;
             var query5 = products.Where(x => x.Price == products.Max(p => p.Price)).FirstOrDefault();
-            //Console.WriteLine($"{query5.Id} {query5.Name} {query5.Brand} {query5.Quantity} {query5.Price}");
+            Console.WriteLine($"{query5.Id} {query5.Name} {query5.Brand} {query5.Quantity} {query5.Price}");
 
 
             //By using find give the highest price item
